@@ -81,16 +81,16 @@ Percentage = (8.2 × 10) − 7.5 = 74.5%
             </ol>
         </section>
         <div className="flex justify-center items-center mt-8">
-      <div className="w-full max-w-3xl aspect-w-16 aspect-h-9">
-        <iframe
-          src="https://www.youtube.com/embed/9R-tmLqDV1s"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-          className="w-full h-full rounded-md border border-gray-300 shadow-md"
-        ></iframe>
-      </div>
-    </div>
+          <div className="w-full max-w-3xl" style={{ height: '400px' }}> {/* Set custom height */}
+            <iframe
+              src="https://www.youtube.com/embed/9R-tmLqDV1s"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full rounded-md border border-gray-300 shadow-md"
+            ></iframe>
+          </div>
+</div>
      <div className="grid md:grid-cols-2 gap-8 mt-12">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold mb-4">How It Works</h3>
